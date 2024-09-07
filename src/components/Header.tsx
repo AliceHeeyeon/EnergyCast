@@ -10,14 +10,15 @@ const Header = () => {
         <nav>
           <div className="nav-mobile">
               <h2>Energy Cast</h2>
-              <div className="options">
-                  <p className="option-dashboard">Dashboard</p>
-                  <p className="option-map">map</p>
+              <div className="nav-option">
+                <div className="options">
+                    <p className="option-dashboard">Dashboard</p>
+                    <p className="option-map">map</p>
+                </div>
+                <div className="hamburger-menu-mobile">
+                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                </div>
               </div>
-            <div className="hamburger-menu-mobile">
-                <Hamburger toggled={isOpen} toggle={setOpen} />
-            </div>
-    
           </div>
 
         </nav>

@@ -23,6 +23,10 @@ nav .nav-mobile {
   align-items: center;
   justify-content: space-between;
 }
+nav .nav-mobile .nav-option {
+  display: flex;
+  align-items: center;
+}
 nav .nav-mobile .options {
   display: flex;
   align-items: center;

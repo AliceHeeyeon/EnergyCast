@@ -17,6 +17,9 @@ const Menu: React.FC<MenuProps> = ({toggle}) => {
                 <p>Demand forecast</p>
             </li>
             <li className='cursor-pointer' onClick={() => handleMenuClick}>
+                <p>Household Usage Dashboard</p>
+            </li>
+            <li className='cursor-pointer' onClick={() => handleMenuClick}>
                 <p>Generation forecast</p>
             </li>
             <li className='cursor-pointer' onClick={() => handleMenuClick}>
