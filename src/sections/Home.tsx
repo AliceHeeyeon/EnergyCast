@@ -1,18 +1,15 @@
-import Graph from "../components/Graph"
+
 const Home = () => {
   return (
-    <div className="home page">
-      <div className="graphs">
-        <div className="graph-realtime">
-          <h3>Real-Time Demand vs Supply</h3>
-          <Graph />
-        </div>
-        <div className="graph-forecast">
-          <h3>Forecasted Demand and Generation</h3>
-        </div>
+    <div className="home">
+      <div className="body">
+        <h1 className="heading1">
+        Analyze, Forecast, Empower
+          <br />
+          Stable Energy Supply for a Sustainable Future
+        </h1>
       </div>
-      
-    </div>
+  </div>
   )
 }
 

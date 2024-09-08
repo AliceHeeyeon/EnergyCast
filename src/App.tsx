@@ -1,23 +1,26 @@
 import './css/App.css';
-import {HashRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import ShortageMap from './sections/ShortageMap';
 
 //Pages
 import Home from './sections/Home';
+import GraphDashboard from './sections/GraphDashboard';
 
 //Components
 import Header from './components/Header';
+import Graph from './components/Graph';
 
 function App() {
   return (
     <div className="App">
-     <HashRouter>
+     <BrowserRouter>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/shortagemap' element={<ShortageMap />} />
+        <Route path='/graphdashboard' element={<GraphDashboard />} />
       </Routes>
-     </HashRouter>
+     </BrowserRouter>
     </div>
   );
 }
